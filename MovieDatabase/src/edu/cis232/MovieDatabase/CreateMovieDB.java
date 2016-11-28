@@ -50,35 +50,35 @@ public class CreateMovieDB {
 			stmt.execute("CREATE TABLE Movie (" + "ID INT IDENTITY PRIMARY KEY, " + "Title CHAR(30), " + "Director CHAR(30), " + "Genre CHAR(20),"
 					+ " " + "YearReleased INT, " + "RuntimeMinutes INT " + ")");
 
-			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, Runtimeminutes) VALUES ( " 
+			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, RuntimeMinutes) VALUES ( " 
 					+ "'Transporter', " 
 					+ "'Louis Leterrier', " 
 					+ "'Action', " 
 					+ "2002, " 
 					+ "92 )");
 
-			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, Runtimeminutes) VALUES ( " 
+			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, RuntimeMinutes) VALUES ( " 
 					+ "'Crank', " 
 					+ "'Taylor Neveldine', " 
 					+ "'Action', " 
 					+ "2006, " 
 					+ "88 )");
 
-			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, Runtimeminutes) VALUES ( " 
+			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, RuntimeMinutes) VALUES ( " 
 					+ "'Death Race', " 
 					+ "'Paul W.S. Anderson', " 
 					+ "'Action', " 
 					+ "2008, " 
 					+ "110 )");
 
-			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, Runtimeminutes) VALUES ( " 
+			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, RuntimeMinutes) VALUES ( " 
 					+ "'The Expendables', " 
 					+ "'Sylvester Stallone', " 
 					+ "'Action', " 
 					+ "2010, " 
 					+ "103 )");
 
-			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, Runtimeminutes) VALUES ( " 
+			stmt.execute("INSERT INTO Movie(Title,Director, Genre, YearReleased, RuntimeMinutes) VALUES ( " 
 					+ "'War', " 
 					+ "'Philip G. Atwell', " 
 					+ "'Action', " 
